@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+a,
+:active {
+  color: inherit;
+  text-decoration: none;
+}
+
 html {
   font-family: Roboto, "Courier New", Courier, monospace;
   font-size: 10px;
@@ -123,6 +129,23 @@ html {
   padding-left: 7rem;
 }
 
+.main-about {
+  min-height: 50rem;
+  color: #636e72;
+}
+.main-about h2 {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+  letter-spacing: 0.3rem;
+}
+.main-about p {
+  font-size: 1.5rem;
+}
+.main-about p:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
 .footer {
   background-color: #343434;
 }
@@ -192,6 +215,11 @@ html {
   }
   .main-home .two-column__two h2 {
     margin: 3rem 0;
+  }
+
+  .main-about {
+    padding: 0 2rem;
+    margin-bottom: 3rem;
   }
 
   .footer .two-column__one {
