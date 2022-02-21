@@ -205,6 +205,9 @@ html {
     padding-left: 0;
     margin-bottom: 1rem;
   }
+  .header-nav__items-item {
+    padding: 0.6rem 1rem;
+  }
 
   .two-column {
     flex-direction: column;
