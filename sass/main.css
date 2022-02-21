@@ -23,7 +23,7 @@ html {
   background-size: cover;
 }
 .header-bg {
-  background-color: #1a1a1a;
+  background-color: #008fa1;
 }
 .header-nav {
   min-height: 5rem;
@@ -33,8 +33,11 @@ html {
 .header-nav__logo {
   font-size: 3rem;
   font-weight: 700;
-  color: #dfe6e9;
+  color: #ffffff;
   letter-spacing: 0.3rem;
+}
+.header-nav__menu {
+  display: none;
 }
 .header-nav__items {
   color: #dfe6e9;
@@ -135,7 +138,7 @@ html {
   list-style: none;
 }
 .footer .two-column__one ul li {
-  padding: 0.8rem 2rem;
+  padding: 0.5rem 2rem;
   position: relative;
   transition: ease-in 0.3s;
   color: #a3b7bf;
@@ -160,4 +163,38 @@ html {
 }
 .two-column > * {
   flex: 1;
+}
+
+@media only screen and (max-width: 899px) {
+  .header-bg {
+    background-color: #00626e;
+  }
+  .header-nav {
+    padding: 0 2rem;
+    flex-direction: column;
+  }
+  .header-nav__logo {
+    font-size: 2.5rem;
+    padding: 1rem 0;
+  }
+  .header-nav__items {
+    justify-content: space-evenly;
+    padding-left: 0;
+    margin-bottom: 1rem;
+  }
+
+  .two-column {
+    flex-direction: column;
+  }
+
+  .main-home .two-column__one {
+    min-height: 300px;
+  }
+  .main-home .two-column__two h2 {
+    margin: 3rem 0;
+  }
+
+  .footer .two-column__one {
+    margin-bottom: 2rem;
+  }
 }/*# sourceMappingURL=main.css.map */

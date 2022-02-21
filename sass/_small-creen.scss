@@ -1,0 +1,42 @@
+@media only screen and (max-width: 899px) {
+  .header {
+    &-bg {
+      background-color: $secondary;
+    }
+    &-nav {
+      padding: 0 2rem;
+      flex-direction: column;
+      &__logo {
+        font-size: 2.5rem;
+        padding: 1rem 0;
+      }
+      &__items {
+        justify-content: space-evenly;
+        padding-left: 0;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+  .two-column {
+    flex-direction: column;
+  }
+  .main-home {
+    .two-column {
+      &__one {
+        min-height: 300px;
+      }
+      &__two {
+        h2 {
+          margin: 3rem 0;
+        }
+      }
+    }
+  }
+  .footer {
+    .two-column {
+      &__one {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}

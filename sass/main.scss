@@ -35,7 +35,7 @@ $dark: #242424;
     background-size: cover;
   }
   &-bg {
-    background-color: $primary;
+    background-color: lighten($secondary, 10%);
   }
   &-nav {
     min-height: 5rem;
@@ -44,8 +44,11 @@ $dark: #242424;
     &__logo {
       font-size: 3rem;
       font-weight: 700;
-      color: $light;
+      color: $white;
       letter-spacing: 0.3rem;
+    }
+    &__menu {
+      display: none;
     }
     &__items {
       color: $light;
@@ -152,7 +155,7 @@ $dark: #242424;
         display: flex;
         list-style: none;
         li {
-          padding: 0.8rem 2rem;
+          padding: 0.5rem 2rem;
           position: relative;
           transition: ease-in 0.3s;
           color: darken($light, 20%);
@@ -181,3 +184,5 @@ $dark: #242424;
     flex: 1;
   }
 }
+
+@import './small-creen';
