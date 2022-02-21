@@ -155,6 +155,7 @@ $dark: #242424;
           padding: 0.8rem 2rem;
           position: relative;
           transition: ease-in 0.3s;
+          color: darken($light, 20%);
           &:not(:last-child) {
             border-right: 1px solid $grey;
           }

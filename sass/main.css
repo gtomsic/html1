@@ -138,6 +138,7 @@ html {
   padding: 0.8rem 2rem;
   position: relative;
   transition: ease-in 0.3s;
+  color: #a3b7bf;
 }
 .footer .two-column__one ul li:not(:last-child) {
   border-right: 1px solid #636e72;
